@@ -1,0 +1,12 @@
+C:\Users\huynh\Desktop\CỜ TƯỚNG-LTM\CoTuongBackend-master\CoTuongBackend.Domain\bin\Debug\net7.0\CoTuongBackend.Domain.deps.json
+C:\Users\huynh\Desktop\CỜ TƯỚNG-LTM\CoTuongBackend-master\CoTuongBackend.Domain\bin\Debug\net7.0\CoTuongBackend.Domain.dll
+C:\Users\huynh\Desktop\CỜ TƯỚNG-LTM\CoTuongBackend-master\CoTuongBackend.Domain\bin\Debug\net7.0\CoTuongBackend.Domain.pdb
+C:\Users\huynh\Desktop\CỜ TƯỚNG-LTM\CoTuongBackend-master\CoTuongBackend.Domain\obj\Debug\net7.0\CoTuongBackend.Domain.csproj.AssemblyReference.cache
+C:\Users\huynh\Desktop\CỜ TƯỚNG-LTM\CoTuongBackend-master\CoTuongBackend.Domain\obj\Debug\net7.0\CoTuongBackend.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huynh\Desktop\CỜ TƯỚNG-LTM\CoTuongBackend-master\CoTuongBackend.Domain\obj\Debug\net7.0\CoTuongBackend.Domain.AssemblyInfoInputs.cache
+C:\Users\huynh\Desktop\CỜ TƯỚNG-LTM\CoTuongBackend-master\CoTuongBackend.Domain\obj\Debug\net7.0\CoTuongBackend.Domain.AssemblyInfo.cs
+C:\Users\huynh\Desktop\CỜ TƯỚNG-LTM\CoTuongBackend-master\CoTuongBackend.Domain\obj\Debug\net7.0\CoTuongBackend.Domain.csproj.CoreCompileInputs.cache
+C:\Users\huynh\Desktop\CỜ TƯỚNG-LTM\CoTuongBackend-master\CoTuongBackend.Domain\obj\Debug\net7.0\CoTuongBackend.Domain.dll
+C:\Users\huynh\Desktop\CỜ TƯỚNG-LTM\CoTuongBackend-master\CoTuongBackend.Domain\obj\Debug\net7.0\refint\CoTuongBackend.Domain.dll
+C:\Users\huynh\Desktop\CỜ TƯỚNG-LTM\CoTuongBackend-master\CoTuongBackend.Domain\obj\Debug\net7.0\CoTuongBackend.Domain.pdb
+C:\Users\huynh\Desktop\CỜ TƯỚNG-LTM\CoTuongBackend-master\CoTuongBackend.Domain\obj\Debug\net7.0\ref\CoTuongBackend.Domain.dll
