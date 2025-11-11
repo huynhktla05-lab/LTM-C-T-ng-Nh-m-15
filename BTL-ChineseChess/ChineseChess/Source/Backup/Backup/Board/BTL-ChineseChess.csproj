@@ -1,0 +1,246 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AB5D86AC-D9F8-4380-8321-3AE34634C644}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Board</RootNamespace>
+    <AssemblyName>Board</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BanCo.cs" />
+    <Compile Include="Chot.cs" />
+    <Compile Include="FlashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlashScreen.Designer.cs">
+      <DependentUpon>FlashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChessBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChessBoard.Designer.cs">
+      <DependentUpon>ChessBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game.cs">
+    </Compile>
+    <Compile Include="Ma.cs" />
+    <Compile Include="NewGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewGame.Designer.cs">
+      <DependentUpon>NewGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NguoiChoi.cs" />
+    <Compile Include="Open.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Open.Designer.cs">
+      <DependentUpon>Open.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phao.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FlashScreen.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FlashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChessBoard.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ChessBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewGame.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Open.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Open.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sound_Options.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Sound_Options.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\banco.png" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="QuanCo.cs" />
+    <Compile Include="Sound_Options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sound_Options.Designer.cs">
+      <DependentUpon>Sound_Options.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sy.cs" />
+    <Compile Include="Tinh.cs" />
+    <Compile Include="ToaDo.cs" />
+    <Compile Include="Tuong.cs" />
+    <Compile Include="VanCo.cs" />
+    <Compile Include="Xe.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\1chot.png" />
+    <None Include="Resources\1chot_marked.png" />
+    <None Include="Resources\1chot_bian.png" />
+    <Content Include="Resources\1ma.png" />
+    <None Include="Resources\1ma_marked.png" />
+    <None Include="Resources\1ma_bian.png" />
+    <Content Include="Resources\1phao.png" />
+    <None Include="Resources\1phao_marked.png" />
+    <None Include="Resources\1phao_bian.png" />
+    <Content Include="Resources\1sy.png" />
+    <None Include="Resources\1sy_marked.png" />
+    <None Include="Resources\1sy_bian.png" />
+    <Content Include="Resources\1tinh.png" />
+    <None Include="Resources\1tinh_marked.png" />
+    <None Include="Resources\1tinh_bian.png" />
+    <None Include="Resources\1tuog_bian.png" />
+    <Content Include="Resources\1tuong.png" />
+    <None Include="Resources\1tuong_marked.png" />
+    <None Include="Resources\1tuong_bian.png" />
+    <None Include="Resources\1tuong_bichieu.png" />
+    <Content Include="Resources\1xe.png" />
+    <None Include="Resources\1xe_marked.png" />
+    <None Include="Resources\1xe_bian.png" />
+    <Content Include="Resources\2chot.png" />
+    <None Include="Resources\2chot_marked.png" />
+    <None Include="Resources\2chot_bian.png" />
+    <Content Include="Resources\2ma.PNG" />
+    <None Include="Resources\2ma_marked.PNG" />
+    <None Include="Resources\2ma_bian.png" />
+    <Content Include="Resources\2phao.png" />
+    <None Include="Resources\2phao_marked.png" />
+    <None Include="Resources\2phao_bian.png" />
+    <Content Include="Resources\2sy.png" />
+    <None Include="Resources\2sy_marked.png" />
+    <None Include="Resources\2sy_bian.png" />
+    <Content Include="Resources\2tinh.png" />
+    <None Include="Resources\2tinh_marked.png" />
+    <None Include="Resources\2tinh_bian.png" />
+    <Content Include="Resources\2tuong.png" />
+    <None Include="Resources\2tuong_marked.png" />
+    <None Include="Resources\2tuong_bian.png" />
+    <None Include="Resources\2tuong_bichieu.png" />
+    <Content Include="Resources\2xe.png" />
+    <None Include="Resources\Mini_MouseOver.png" />
+    <None Include="Resources\Mini.png" />
+    <None Include="Resources\ChapXong.png" />
+    <None Include="Resources\Chap.png" />
+    <None Include="Resources\ChapXong_MouseOver.png" />
+    <None Include="Resources\icon.ico" />
+    <None Include="Resources\Chieu.wav" />
+    <None Include="Resources\Ready.wav" />
+    <None Include="Resources\XeAn.wav" />
+    <None Include="Resources\TuongAn.wav" />
+    <None Include="Resources\TinhAn.wav" />
+    <None Include="Resources\SyAn.wav" />
+    <None Include="Resources\PhaoAn.wav" />
+    <None Include="Resources\MaAn.wav" />
+    <None Include="Resources\ChotAn.wav" />
+    <None Include="Resources\Thoat.png" />
+    <None Include="Resources\Thoat_MouseOver.png" />
+    <None Include="Resources\ChoiLai.png" />
+    <None Include="Resources\ChoiLai_MouseOver.png" />
+    <None Include="Resources\Ketquabg.png" />
+    <None Include="Resources\cCancel.png" />
+    <None Include="Resources\cCancel_MouseOver.png" />
+    <None Include="Resources\Cancel.png" />
+    <None Include="Resources\Cancel_MouseOver.png" />
+    <None Include="Resources\Del_MouseOver.png" />
+    <None Include="Resources\Del.png" />
+    <None Include="Resources\Play_MouseOver.png" />
+    <None Include="Resources\Play.png" />
+    <None Include="Resources\Openbg.png" />
+    <None Include="Resources\OptBg.png" />
+    <None Include="Resources\BatDau_MouseOver.png" />
+    <None Include="Resources\BatDau.png" />
+    <None Include="Resources\MessBox_bg1.png" />
+    <None Include="Resources\DiLai_MouseOver.png" />
+    <None Include="Resources\DiLai.png" />
+    <None Include="Resources\ChiuThua_MouseOver.png" />
+    <None Include="Resources\ChiuThua.png" />
+    <None Include="Resources\ChieuBi.png" />
+    <None Include="Resources\Turning.png" />
+    <None Include="Resources\NotTurn.png" />
+    <None Include="Resources\mouse.cur" />
+    <None Include="Resources\ChieuTuong.png" />
+    <None Include="Resources\Close_MouseOver.png" />
+    <None Include="Resources\Close.png" />
+    <None Include="Resources\luu.png" />
+    <None Include="Resources\Ok_MouseOver.png" />
+    <None Include="Resources\Ok.png" />
+    <None Include="Resources\MessBox_bg.png" />
+    <None Include="Resources\Exit_MouseOver.png" />
+    <None Include="Resources\Exit.png" />
+    <None Include="Resources\flashbanner.png" />
+    <None Include="Resources\2xe_bian.png" />
+    <None Include="Resources\Chuot.gif" />
+    <None Include="Resources\CanMove.gif" />
+    <None Include="Resources\CanMove.png" />
+    <None Include="Resources\Options_MouseOver.png" />
+    <None Include="Resources\Options.png" />
+    <None Include="Resources\Open_MouseOver.png" />
+    <None Include="Resources\Open.png" />
+    <None Include="Resources\Save_MouseOver.png" />
+    <None Include="Resources\Save.png" />
+    <None Include="Resources\Undo_MouseOver.png" />
+    <None Include="Resources\Undo.png" />
+    <None Include="Resources\Newgame_MouseOver.png" />
+    <None Include="Resources\Newgame.png" />
+    <None Include="Resources\Mark.wav" />
+    <None Include="Resources\2xe_marked.png" />
+    <None Include="Resources\bg.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
