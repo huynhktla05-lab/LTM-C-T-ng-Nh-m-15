@@ -18,7 +18,7 @@ function Footer() {
                 <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end text-bamboo-100 opacity-50">
                     <a
                         className="items-center grid-flow-col hover:underline"
-                        href="https://github.com/Owlvernyte/cotuong-frontend"
+                        href="https://github.com/huynhktla05-lab/LTM-C-T-ng-Nh-m-15/tree/master"
                         target="_blank"
                         rel="noopener"
                     >
