@@ -46,7 +46,7 @@ function Contact() {
                   width={40}
                   height={40}
                 />
-                <p className="text-lg text-bamboo-100">owlvernyte@gmail.com</p>
+                <p className="text-lg text-bamboo-100">huynhktla05@gmail.com</p>
               </div>
               <div className="flex flex-row space-x-2 justify-center items-center">
                 <Image
@@ -56,11 +56,11 @@ function Contact() {
                   height={40}
                 />
                 <Link
-                  href={"https://discord.gg/cZN4PJaH"}
+                  href={"https://discord.com/invite/wSCacTSz9"}
                   className="text-lg text-bamboo-100"
                   target="_blank"
                 >
-                  https://discord.gg/cZN4PJaH
+                  https://discord.com/invite/wSCacTSz9
                 </Link>
               </div>
             </div>
